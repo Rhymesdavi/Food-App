@@ -13,7 +13,7 @@ export default function OrdersPage() {
 
   useEffect(() => {
     fetchOrders();
-  }, [clearCart, id]);
+  }, []);
 
   function fetchOrders() {
     setLoadingOrders(true);
