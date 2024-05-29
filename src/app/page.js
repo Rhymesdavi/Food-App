@@ -28,7 +28,7 @@ export default function Home() {
       <section className="text-center my-8" id="contact">
         <SectionHeaders 
           subHeader={"Dont hesitate"}
-          mainHeader={'Contact us'}
+          mainHeader={"Contact us"}
         />
         <div className="mt-8">
           <a className="text-4xl underline text-gray-500" href="tel:">
